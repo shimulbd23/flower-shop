@@ -44,7 +44,8 @@ header {
 
 /* featured flowers start  */
 .featured-flowers,
-.delivery {
+.delivery,
+.instagram {
     margin: 178px 316px 0px;
 }
 
@@ -146,4 +147,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.instagram-photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
