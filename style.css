@@ -45,7 +45,8 @@ header {
 /* featured flowers start  */
 .featured-flowers,
 .delivery,
-.instagram {
+.instagram,
+.latest-deal {
     margin: 178px 316px 0px;
 }
 
@@ -153,4 +154,33 @@ header {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+/* latest deals  */
+
+.latest-deal {
+    background-image: url("./images/Rectangle\ 9.png");
+    height: 449px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    padding-left: 22px;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+    margin-right: 16px;
 }
