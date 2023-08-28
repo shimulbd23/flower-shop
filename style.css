@@ -45,8 +45,7 @@ header {
 /* featured flowers start  */
 .featured-flowers,
 .delivery,
-.instagram,
-.latest-deal {
+.instagram {
     margin: 178px 316px 0px;
 }
 
@@ -143,7 +142,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 300px;
+    padding: 100px 240px;
 
 }
 
@@ -159,24 +158,30 @@ header {
 
 .instagram-photo-container {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
 /* latest deals  */
+.latest-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
 .latest-deal {
     background-image: url("./images/Rectangle\ 9.png");
     height: 449px;
     background-size: contain;
     background-repeat: no-repeat;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 
 }
 
 .subscribe {
+    padding: 0px 30px;
     display: flex;
     justify-content: center;
 }
@@ -188,7 +193,6 @@ header {
     padding-left: 22px;
     font-size: 20px;
     border: 0;
-    cursor: pointer;
     margin-right: 16px;
 }
 
