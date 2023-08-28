@@ -185,6 +185,20 @@ header {
     margin-right: 16px;
 }
 
+.speciality {
+    margin-bottom: 50px;
+}
+
+.speciality-list p {
+    margin-top: 20px;
+}
+
+.speciality-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
 footer {
     height: 449px;
     background-color: black;
