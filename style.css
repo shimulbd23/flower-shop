@@ -163,7 +163,7 @@ header {
 }
 
 .instagram-photo-container img {
-    width: 300px;
+    width: 250px;
 }
 
 /* latest deals  */
@@ -174,13 +174,11 @@ header {
 }
 
 .latest-deal {
+    margin-top: 80px;
     background-image: url("./images/Rectangle\ 9.png");
     height: 449px;
     background-size: contain;
     background-repeat: no-repeat;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
 
 }
 
