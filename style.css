@@ -162,6 +162,10 @@ header {
     gap: 10px;
 }
 
+.instagram-photo-container img {
+    width: 300px;
+}
+
 /* latest deals  */
 .latest-container {
     display: flex;
@@ -182,8 +186,8 @@ header {
 
 .subscribe {
     padding: 0px 30px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .email {
