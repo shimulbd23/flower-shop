@@ -184,3 +184,25 @@ header {
     cursor: pointer;
     margin-right: 16px;
 }
+
+footer {
+    height: 449px;
+    background-color: black;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0px;
+}
